@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect('mongodb://localhost:27017/codeIDE');
+mongoose.connect('mongodb+srv://tusharchoudhari0808:<Tushar@121@>@cluster0.y3prn.mongodb.net/C?retryWrites=true&w=majority&appName=Cluster0');
 
 const projectSchema = new mongoose.Schema({
   title: String,
